@@ -31,12 +31,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'WUNetworkLibrary/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'WUNetworkLibrary' => ['WUNetworkLibrary/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
